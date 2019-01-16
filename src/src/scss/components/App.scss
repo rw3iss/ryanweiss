@@ -1,0 +1,32 @@
+@import '../common/_vars.scss';
+@import '../common/_fonts.scss';
+@import '../common/_normalize.scss';
+@import '../common/_common.scss';
+@import '../common/_flex.scss';
+@import '../common/_global.scss';
+
+#app-container {
+	height: 100%;
+	max-width: 100%;
+	overflow-y: auto;
+
+	#content-wrapper {
+		max-width: 1080px;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 767px) {
+	#app-container {
+		max-width: 100%;
+
+		#content-wrapper {
+			max-width: 100%;
+		}
+	}
+}
+
+.to-top {
+	display: block;
+	margin-top: 3px;
+}

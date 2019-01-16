@@ -1,0 +1,84 @@
+{
+	"category": "fulltime",
+	"items": [
+		{
+			"title": "EnvoyAI",
+			"key": "envoyai",
+			"date_from": "8/1/2017",
+			"date_to": "8/1/2018",
+			"description": "First hire and lead developer for a healthcare startup out of Cambridge, MA. Designed and implemented entire developer portal, www.portal.envoyai.com, front-end and back-end, utilising node.js with Okta for user management, AWS integrations (EC2, ECS, CodePipeline, CodeCommit, CodeDeploy, Lambda, Fargate, Aurora, S3, CloudWatch, CloudFront, IAM), REST API, and a React SPA client. Developers can manage and test custom dockerized algorithms (ie. AI “machines”) and manage versioned deployments of each. These machines can then be utilised in a hospital setting with input data, ie. DICOM files, put through the algorithms in order to retrieve a computed result. Our system manages all the communications, data transfer, request management, redundancies, logging and statistics.",
+			"url":  "http://envoyai.com",
+			"thumb": "envoyai_thumb.png"
+		},
+		{
+			"title": "Logibrush Studios",
+			"key": "logicbrush",
+			"date_from": "10/1/2016",
+			"date_to": "5/1/2017",
+			"description": "Helping out on a variety of full-stack PHP projects, so far including urbanturf.com, devines.com, and kevah.org, jonwye.com, transientprotectiondesign.com, leftchannel.com, and christianosgifts.com. Working with WordPress, Laravel, ExpressionEngine, Magento, Silverstripe, and a variety of frontend technologies.",
+			"url":  "http://logicbrush.com",
+			"thumb": "logicbrush_thumb.png"
+		},
+		{
+			"title": "More Perfect Union",
+			"key": "moreperfectunion",
+			"date_from": "12/1/2015",
+			"date_to": "4/1/2016",
+			"description": "Lead developer for ​https://thechisel.com​, written in node.js, express.js, ember.js, LoopBack, MongoDB, and MySQL. Chisel is a  website for political advocates to collaborate on reformation proposals that can be reviewed and revised by a panel of experts,  and eventually elevated to proper political avenues to help induce change.  ",
+			"url":  "http://thechisel.com",
+			"thumb": "chisel_thumb.png"
+		},
+		{
+			"title": "Huge, Inc.",
+			"key": "huge",
+			"date_from": "12/1/2014",
+			"date_to": "5/1/2015",
+			"description": "ASP.NET and full­stack developer for the ​www.hugeinc.com​ website, maintaining the codebase, optimizations, working with  SiteCore CMS. Diagnosing issues between Dev, QA, and Production environments, migrating database from SQL Server to  Cassandra. Using Jenkins and Chef as build and automation/continuous integration tools for deployment.  ­Practiced Scrum and Agile methodologies day­to­day, working with a team of about 10 people, including two other backend  developers.",
+			"url":  "http://hugeinc.com",
+			"thumb": "huge_thumb.png"
+		},
+		{
+			"title": "Publicis Modem",
+			"key": "publicis",
+			"date_from": "6/1/2012",
+			"date_to": "2/1/2013",
+			"description": "Lead ASP.NET backend developer for Garnier USA and Garnier mini­sites, allowing for user recommendations, newsletter  subscriptions, tracking, giveaway requests, and review submissions with photos. Worked on a team of about 5 developers, 3 backend and two frontend. I acted as the mentor for the backend developers and  generally architected all of the solutions.",
+			"url":  "http://publicisna.com",
+			"thumb": "publicis_thumb.png"
+		},
+		{
+			"title": "Elephant Ventures",
+			"key": "elephantventures",
+			"date_from": "8/1/2011",
+			"date_to": "7/1/2012",
+			"description": "15 person firm, practicing Scrum and Agile methodologies, deployment automation, implementing best practices. Lead developer for www.pitneybowesmeter.com​ (PHP, jQuery), handling e-commerce shopping cart experience on the backend, security and session management, database design, and also frontend jQuery implementation. Interaction with third-party SEO services: ClickTale for recording user's movements and actions, Google tracking, analytics, and adwords. PHP backend developer for GroupSlots, an iPhone app prototype of a social layer to slot machine playing through the use of mobile devices. Users can group up using Bump, Facebook, and other services on their phones, and choose a prize/goal they want to work toward such as a free dinner or Xbox. Users are notified of player/group wins via push notifications. Lead developer for ​www.generalsnus.com​ (ASP.NET/C#) refactoring, integrating and extending enterprise­level Orchard CMS  into the site’s existing framework.",
+			"url":  "http://elephantventures.com",
+			"thumb": "elephant_thumb.png"
+		},
+		{
+			"title": "R/GA Interactive",
+			"key": "rga",
+			"date_from": "5/1/2007",
+			"date_to": "8/1/2011",
+			"description": "ASP.NET backend developer for the \"Agency of the Decade\". Worked on the following sites: ​www.rga.com​, www.smallbusiness.verizon.com,​ ​www.barnesandnoble.com​, ​www.loreal.com​. Verizon Small Business: Implemented the entire backend for the ‘Bundle Builder’, a tool to allow business clients to customize  service options and deals, as well as catalogue and persist the data. Lead developer for the Internal Reporting system and internal company website/intranet. Consists of architecting reporting  scenarios and solutions, creating independent systems (e.g. automated emailing daemon), RDBMS database management and  administration, blackberry­accessible web pages, Excel API's and worksheet generation, and much more. Utilizing Entity Framework and WCF to handle data abstractions and communicate with server­side webservices. Work takes place in small groups with strict deadlines and includes formulating architectural solutions and implementing  them per client requirements. Employing ASP.NET MVC3 principles and an inherent understanding of design patterns. Experience with custom request and response handling, RSS feeds, social network interfacing with third­party API's.",
+			"url":  "http://rga.com",
+			"thumb": "rga_thumb.png"
+		},
+		{
+			"title": "MyDorp",
+			"key": "mydorp",
+			"date_from": "9/1/2005",
+			"date_to": "8/1/2007",
+			"description": "Lead developer for an earlier implementation of a web operating system and dynamic service creation /hosting community, ie. something akin to the Cloud for a myriad of languages and “app” implementations on the web. Unique implementation of a credit­based e­commerce system and user­based shared resources worth real monetary value, relative to the amount of processing power the app used. Technologies used: ASP.NET, Java, HTML/CSS/JavaScript, writing custom Eclipse plugins to bootstrap client  application/module development. Demonstrates an understanding of advanced ASP.NET principles and various architectural patterns: tiered system, producer/consumer model, factory pattern, strategy pattern, service layers as facades to the business­tier, message consumption/passing, state machines, some graph strategies, Spring.NET­like dynamic service creation/dependency injection."
+		},
+		{
+			"title": "Rutgers University",
+			"key": "rutgers",
+			"date_from": "1/1/2005",
+			"date_to": "5/1/2007",
+			"description": "Lead developer for www.livingston.com, working with PHP and MySQL, helping to maintain and create various new and existing user pages with dynamic data and administrative functionality, working one­on­one with the dean of Livingston  College.",
+			"url":  "http://rutgers.edu",
+			"thumb": "rutgers_thumb.png"
+		}
+	]
+}

@@ -1,0 +1,101 @@
+@import '../common/_vars.scss';
+
+nav {
+	height: auto;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: .8;
+	border-bottom-left-radius: $defaultRadius;
+	border-bottom-right-radius: $defaultRadius;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+47,d8d8d8+100 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 47%, rgba(216,216,216,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 47%,rgba(216,216,216,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 47%,rgba(216,216,216,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8d8d8',GradientType=0 ); /* IE6-9 */
+
+	box-shadow: 2px 2px 4px rgba(0,0,0,.8);
+
+	transition: all .35s ease;
+
+	&:hover {
+		opacity: 1;
+	}
+
+	&.scrolled {
+		transform: translate(-50%, -$navHeight - 10px);
+	}
+
+	.wrap {
+		height: auto;
+
+		.logo {
+			display: none;
+			height: 20px;
+			width: 100%;
+			padding: 3px 2px 2px;
+			letter-spacing: 2px;
+			text-align: center;
+			font-size: .7em;
+			font-weight: bold;
+			color: $colorBackground;
+			text-transform: uppercase;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.nav-items {
+			height: $navHeight;
+
+			.nav-item {
+				height: 100%;
+				color: black;
+				font-weight: bold;
+				font-size: 1.2em;
+				padding: $itemPadding $itemPadding*2;
+				transition: background .35s ease;
+				
+				&:hover {
+					background: darken(white, 10%);
+					cursor: pointer;
+				}
+
+				&:first-child {
+					border-bottom-left-radius: $defaultRadius;
+				}
+
+				&:last-child {
+					border-bottom-right-radius: $defaultRadius;
+				}
+			}
+		}
+	}
+}
+
+
+@media all and (max-width: 767px) {
+	nav {
+		width: 100%;
+		border-radius: 0;
+		
+		.wrap {
+			width: 100%;
+
+			.nav-items {
+				width: 100%;
+				max-width: 100%;
+
+				.nav-item {
+					padding: $itemPadding 0;
+					flex: 1;
+					border-radius: 0;
+				}
+			}
+		}
+	}
+}

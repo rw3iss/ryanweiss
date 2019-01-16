@@ -1,0 +1,56 @@
+{
+	"category": "play",
+	"items": [
+		 
+		{
+			"title": "Scheme Dream",
+			"tags": "color generation, harmonics, patterns",
+			"description": "Scheme Dream is a tool to generate custom color palettes that are related by angles, to be able to define patterns that are harmonic in nature and more pleasing to the eye. Of course custom colors can also be put into any spectrum as well.",
+			"attachments": [ ],
+			"date_created": "1/1/2018",
+			"date_updated": "1/1/2018",
+			"demo": "/schemedream"
+		},
+
+		{
+			"title": "Spectrums",
+			"tags": "frequency, harmonics, patterns",
+			"description": "Spectrums is an experimental application for developing patterns of harmonic sound spectrums. You can set functional properties for generating a spectrum of frequencies, and then play it back for review. You can also see the frequency output for numerical reference. Eventually, you will be able to see the spectrum in a visual way for review, and also modify spectrums in a subtractive or additive way to see interference patterns. The purpose of the application is to become more familiarized with how patterns interact, and of course to come up with interesting sounds.",
+			"attachments": [ ],
+			"date_created": "1/1/2018",
+			"date_updated": "1/1/2018",
+			"demo": "/spectrums"
+		},
+
+		{
+			"title": "Edge",
+			"tags": "geometry, harmonics, 3D",
+			"description": "Edge is a small application to generate 2D or 3D layouts that are more easily defined harmonically. Currently there is limited functionality, to only be able to add primitive objects and basic modifiers. The novelty is to eventually be able to define related properties of objects or groups based on other properties, keeping their relationships in tandem to preserve harmony as things are changed.",
+			"attachments": [ ],
+			"date_created": "1/1/2017",
+			"date_updated": "1/1/2017",
+			"demo": "/edge"
+		},
+
+		{
+			"title": "DNA Helix",
+			"tags": "DNA, 3D",
+			"description": "This is a small demo to showcase a simple ThreeJS 3D double helix that moves as you scroll.",
+			"attachments": [ ],
+			"date_created": "1/1/2016",
+			"date_updated": "1/1/2016",
+			"demo": "/shared/dna/index.html"
+		},
+
+		{
+			"title": "Organic Image Mosaic",
+			"tags": "image gallery, mosaic, responsive",
+			"description": "Demonstrates organically laying out images or arbitrary size in a mosaic grid, that will animate into new positions as the screen or container is resized.",
+			"attachments": [ ],
+			"date_created": "1/1/2016",
+			"date_updated": "1/1/2016",
+			"demo": "https://codepen.io/rw3iss/pen/VpORWQ"
+		}
+
+	]
+}

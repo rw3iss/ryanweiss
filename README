@@ -1,0 +1,4 @@
+how to run:
+
+npm run build (builds /dist)
+npm run server (serves static from /dist)

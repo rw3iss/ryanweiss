@@ -1,0 +1,76 @@
+/*eslint-disable no-var */
+var fs = require('fs')
+var path = require('path')
+var webpack = require('webpack')
+var ExtractTextPlugin = require("extract-text-webpack-plugin");
+var debug = process.env.NODE_ENV !== "production";
+
+function getEntrySources(sources) {
+    if (process.env.NODE_ENV !== 'production') {
+        sources.push('webpack-dev-server/client?http://localhost:8080/assets/');
+        sources.push('webpack/hot/only-dev-server');
+    }
+
+    return sources;
+}
+
+module.exports = {
+
+  context: __dirname,
+
+  devtool: debug ? "inline-sourcemap" : null,
+	
+  devServer: {
+         inline: true,
+         port: 8080,
+         contentBase: "./client"
+  },
+
+  entry: {
+    main: './app.js'
+  },
+
+  /*
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.sass', '.scss'],
+    root: [path.join(__dirname, './server'), path.join(__dirname, './client')]
+  },
+  */
+
+  module: {
+    loaders: [ 
+      {
+        test: /\.jsx?$/,
+        loader: 'babel-loader',
+        include: [ './' ],
+        query: {
+          "presets": ["es2015", "react"]
+        }
+      },
+      {
+        test: /\.scss$/,
+        //loaders: ['style', 'css', 'sass']
+        loader: ExtractTextPlugin.extract('css!sass')
+      }
+    ]
+  },
+
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
+    }),
+    //new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoErrorsPlugin(),
+    new ExtractTextPlugin('./client/css/app.css', {
+        allChunks: true
+    })
+  ],
+
+  output: {
+    path: './client',
+    publicPath: 'http://192.168.0.25:8080/client',
+    filename: 'app.js',
+    chunkFilename: '[id].chunk.js',
+  }
+
+}

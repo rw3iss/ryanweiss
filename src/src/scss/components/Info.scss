@@ -1,0 +1,13 @@
+@import '../common/_vars.scss';
+
+#info {
+	.bio {
+		padding: $itemPadding*2;
+	}
+}
+
+@media all and (max-width: 1023px) {
+	#info {
+		text-align: center;
+	}
+}

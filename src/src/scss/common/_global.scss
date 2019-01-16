@@ -1,0 +1,29 @@
+
+html, body {
+	background: $colorBackground url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAI0lEQVQIW2NkQAOqijIzGZHFQAK37z9JBwvCODAFuAXRVQMA1ZYRAW9d0SkAAAAASUVORK5CYII=) repeat;
+	color: #efefef;
+	font-family: 'Open Sans';
+	min-height: 100%;
+	height: 100%;
+	width: 100vw;
+	max-width: 100vw;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	color: $colorLink;
+	transition: color .2s ease;
+
+	&:hover {
+		color: lighten($colorLink, 15%);
+	}
+}
+
+#app {
+	max-width: 100%;
+}
