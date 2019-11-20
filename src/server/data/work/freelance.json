@@ -1,11 +1,20 @@
 {
 	"category": "freelance",
-	"items": [	
+	"items": [
+		{
+			"title": "One Night",
+			"key": "onenight",
+			"tags": "React, Laravel, iOS, responsive",
+			"description": "Full stack developer for a Laravel backend, React web client, and some iOS revisions, on a remote team of 5 people. Primarily doing refactoring, bug fixes, and new feature implementation, utilizing CircleCI, PHPUnit testing, Google DialogFlow/chatbot, Rollbar logging, Synxis/booking API syncing.",
+			"url":  "https://onenight.com",
+			"thumb": "onenight_thumb.png",
+			"date_added": "11/20/2019"
+		},	
 		{
 			"title": "KK & Jay",
 			"key": "kkandjay",
 			"tags": "React, node.js, Shopify, HTML5, CSS3, responsive",
-			"description": "Work in progress. Sole developer for fully responsive e-commerce React site with Express and Shopify backend. Please inquire for a current demo (this link is of the previous site).",
+			"description": "Sole developer for fully responsive e-commerce React site with Express and Shopify backend.",
 			"url":  "http://kkandjay.com",
 			"thumb": "kkandjay_thumb.png",
 			"date_added": "1/14/2018"

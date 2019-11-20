@@ -1,4 +1,12 @@
-how to run:
+Setup:
+npm install
 
-npm run build (builds /dist)
-npm run server (serves static from /dist)
+Run dev builder/watcher:
+npm run dev (start dev server)
+
+The site must be served from server-side, for now. To start server:
+npm run server
+(Then can go to http://localhost:8080 to view the site)
+
+Build/bundle for prod:
+npm run build (builds into /dist)
