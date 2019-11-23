@@ -24,7 +24,7 @@ webpackJsonp([1],{
 /***/ 33:
 /***/ (function(module, exports, __webpack_require__) {
 
-	eval("exports = module.exports = __webpack_require__(12)();\n// imports\n\n\n// module\nexports.push([module.id, \"#work .sub-nav {\\n  padding: 15px; }\\n  #work .sub-nav a {\\n    font-weight: bold;\\n    padding: 15px; }\\n\\n@media all and (max-width: 1023px) {\\n  #work .sub-nav {\\n    width: 100%;\\n    text-align: center; } }\\n\", \"\"]);\n\n// exports\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./~/css-loader!./~/sass-loader!./~/postcss-loader!./src/scss/components/Work.scss\n// module id = 33\n// module chunks = 1\n//# sourceURL=webpack:///./src/scss/components/Work.scss?./~/css-loader!./~/sass-loader!./~/postcss-loader");
+	eval("exports = module.exports = __webpack_require__(12)();\n// imports\n\n\n// module\nexports.push([module.id, \"#work .sub-nav {\\n  padding: 15px; }\\n  #work .sub-nav a {\\n    font-weight: bold;\\n    padding: 15px;\\n    font-family: 'Open Sans Bold'; }\\n\\n@media all and (max-width: 1023px) {\\n  #work .sub-nav {\\n    width: 100%;\\n    text-align: center; } }\\n\", \"\"]);\n\n// exports\n\n\n//////////////////\n// WEBPACK FOOTER\n// ./~/css-loader!./~/sass-loader!./~/postcss-loader!./src/scss/components/Work.scss\n// module id = 33\n// module chunks = 1\n//# sourceURL=webpack:///./src/scss/components/Work.scss?./~/css-loader!./~/sass-loader!./~/postcss-loader");
 
 /***/ })
 
