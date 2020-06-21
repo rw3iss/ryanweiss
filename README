@@ -10,3 +10,7 @@ npm run server
 
 Build/bundle for prod:
 npm run build (builds into /dist)
+
+------------------------
+Run on production:
+pm2 start dist/js/app.js
