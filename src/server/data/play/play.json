@@ -45,7 +45,7 @@
 		{
 			"title": "Organic Image Mosaic",
 			"tags": "image gallery, mosaic, responsive",
-			"description": "Demonstrates organically laying out images or arbitrary size in a mosaic grid, that will animate into new positions as the screen or container is resized.",
+			"description": "Demonstrates organically laying out images of arbitrary size in a mosaic grid, that will animate into new positions as the screen or container is resized.",
 			"attachments": [ ],
 			"date_created": "1/1/2016",
 			"date_updated": "1/1/2016",
