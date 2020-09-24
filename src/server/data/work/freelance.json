@@ -5,7 +5,7 @@
 			"title": "Opus Logica",
 			"key": "opuslogica",
 			"tags": "JavaScript, WebGL, React, Angular, Ruby on Rails",
-			"description": "Retainer of freelance work for a few projects. Helped maintain OpusWorldWind project, an extension of 3D WebGL methods for the Nasa WorldWind library, for working with 3D objects on a map - https://github.com/opuslogica/OpusWorldWind. Also worked on a Ruby on Rails admin application for an iOS/Ionic app, to manage the data and reporting for the application that is helping Crohn’s patients work with IoT data from devices.",
+			"description": "Retainer of freelance work for a few projects. Helped maintain OpusWorldWind project, an extension of 3D WebGL methods for the Nasa WorldWind library, for working with 3D objects on a map - <a href=\"https://github.com/opuslogica/OpusWorldWind\">https://github.com/opuslogica/OpusWorldWind</a>. Also worked on a Ruby on Rails admin application for an iOS/Ionic app, to manage the data and reporting for the application that is helping Crohn’s patients work with IoT data from devices.",
 			"url":  "https://opuslogica.com",
 			"thumb": "opus_thumb.png",
 			"date_added": "9/24/202"

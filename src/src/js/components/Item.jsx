@@ -47,7 +47,7 @@ var Item = React.createClass({
                         {item.tags && <div is class="tags"><span className="label">Tags:</span> {item.tags}</div>}
                     </div>
                     <div is class="text-bottom">
-                        <div is class="content">{item.description}</div>
+                        <div is class="content" __dangerouslySetInnerHTML={{__html: item.description}}></div>
                     </div>
                     { item.demo && <div is class="demo-link">
                         <a href={item.demo} target="_blank">Demo</a>
