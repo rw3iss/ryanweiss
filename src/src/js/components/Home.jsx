@@ -35,9 +35,9 @@ var Home = React.createClass({
                             <h3>I'm</h3>
                             <ul>
                                 <li>Ryan Weiss</li>
-                                <li>Web Developer: 15+ years</li>
-                                <li>Musician: 20+ years</li>
-                                <li>33yrs of age, 150lbs, 5'10"</li>
+                                <li>Web Developer: Since 1998 (20+ years)</li>
+                                <li>Musician: Since 1998 (20+ years)</li>
+                                <li>34yrs of age, 150lbs, 5'10"</li>
                             </ul>
 
                             <h3>Links</h3>
@@ -67,7 +67,7 @@ var Home = React.createClass({
                     </div>
                 </div>
 
-                <div is class="line-title" id="fulltime"><h3>Latest</h3><h4>(updated November 2019)</h4></div>
+                <div is class="line-title" id="fulltime"><h3>Latest</h3><h4>(updated September 202)</h4></div>
                 <div is class="items" flex="row wrap">
                  {this.state.items.map(function(item, i){
                     return <Item item={item} key={i} />
