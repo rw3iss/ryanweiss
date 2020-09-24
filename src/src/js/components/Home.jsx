@@ -35,9 +35,9 @@ var Home = React.createClass({
                             <h3>I'm</h3>
                             <ul>
                                 <li>Ryan Weiss</li>
-                                <li>Web Developer: Since 1998 (20+ years)</li>
-                                <li>Musician: Since 1998 (20+ years)</li>
                                 <li>34yrs of age, 150lbs, 5'10"</li>
+                                <li><b>Web Developer</b>: Since 1998 (20+ years)</li>
+                                <li><b>Musician</b>: Since 1998 (20+ years)</li>
                             </ul>
 
                             <h3>Links</h3>
