@@ -6,10 +6,10 @@
     "node": ">=4.1.0"
   },
   "scripts": {
-    "vendor": "webpack --config webpack.dll.js",
-    "dev": "webpack --progress --watch",
+    "vendor": "webpack --config config/webpack.dll.js",
+    "dev": "webpack --config config/webpack.config.js --progress --watch",
     "server": "nodemon server/app.js --watch server",
-    "build": "webpack --config webpack.dll.js && webpack"
+    "build": "webpack --config config/webpack.dll.js && webpack --config config/webpack.config.js"
   },
   "main": "index.js",
   "dependencies": {

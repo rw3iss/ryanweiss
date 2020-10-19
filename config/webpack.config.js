@@ -1,13 +1,14 @@
 var path = require("path");
 var webpack = require("webpack");
 
+const ROOT = path.resolve( path.join(__dirname, '..'));
 const PATHS = {
-    src: __dirname,
-    app: path.join(__dirname, 'app'),
-    server: path.join(__dirname, 'server'),
-    styles: path.join(__dirname, 'app', 'scss'),
-    dist: path.join(__dirname, 'dist'),
-    modules: path.join(__dirname, 'node_modules')
+    src: ROOT,
+    app: path.join(ROOT, 'app'),
+    server: path.join(ROOT, 'server'),
+    styles: path.join(ROOT, 'app', 'scss'),
+    dist: path.join(ROOT, 'dist'),
+    modules: path.join(ROOT, 'node_modules')
 };
 
 module.exports = [{

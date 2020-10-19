@@ -1,6 +1,16 @@
 var path = require("path");
 var webpack = require("webpack");
 
+const ROOT = path.resolve( path.join(__dirname, '..'));
+const PATHS = {
+    src: ROOT,
+    app: path.join(ROOT, 'app'),
+    server: path.join(ROOT, 'server'),
+    styles: path.join(ROOT, 'app', 'scss'),
+    dist: path.join(ROOT, 'dist'),
+    modules: path.join(ROOT, 'node_modules')
+};
+
 module.exports = {
     cache: true,
     devtool: 'eval',
@@ -8,14 +18,14 @@ module.exports = {
     entry: {
         app: [
             'webpack/hot/poll?1000',
-            './server/server.js'
+            path.join(PATHS.root, 'server', 'server.js')
         ]
     },
 
     target: 'node',
 
     output: {
-        path: './dist',
+        path: PATHS.dist,
         //publicPath: 'http://localhost/',
         filename: 'server.js'
     },
@@ -28,9 +38,7 @@ module.exports = {
             {
                 test: /\.jsx?$/,
                 loader: 'babel',
-                include: [              
-                    path.join(__dirname, "server") //important for performance
-                ], 
+                include: [PATHS.server], 
                 query: {
                     cacheDirectory: true, //important for performance
                     plugins: ["transform-regenerator"],
@@ -46,7 +54,7 @@ module.exports = {
 
     resolve: {
         extensions: ["", ".js", ".jsx", "json"],
-        root: path.resolve(__dirname, "server"),
+       //root: PATHS.server,
         modulesDirectories: ["node_modules"]
     }
 };
