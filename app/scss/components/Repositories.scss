@@ -1,0 +1,22 @@
+@import '../common/_vars.scss';
+
+#repos {
+	.sub-nav {
+		padding: $itemPadding;
+
+		a {
+			font-weight: bold;
+			padding: $itemPadding;
+			font-family: 'Open Sans Bold';
+		}
+	}
+}
+
+@media all and (max-width: 1023px) {
+	#repos {
+		.sub-nav {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}

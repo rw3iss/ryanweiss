@@ -1,0 +1,133 @@
+@import '../common/_vars.scss';
+
+#home {
+	h3 {
+		margin-bottom: 5px;
+	}
+
+	> h3 {
+		margin-left: $itemPadding*2;
+	}
+
+	h3.latest {
+		margin-left: $itemPadding*2;
+		margin-bottom: 0;
+	}
+
+	h3.see-more {
+		margin-bottom: $itemPadding*2;
+	}
+
+	.bio {
+		padding: $itemPadding*2;
+		background: darken($colorBackground, 2.5%);
+		border-radius: $defaultRadius*3;
+		margin: $itemPadding 0 $itemPadding*2;
+		box-shadow: inset 1px 1px 30px darken($colorBackground, 4.5%);
+
+		background: darken($colorBackground, 2%);
+		box-shadow: inset 1px 1px 26px darken($colorBackground, 3.5%);
+		transition: all .35s ease;
+
+		&:hover {
+			background: darken($colorBackground, 1%);
+			box-shadow: inset 1px 1px 26px darken($colorBackground, 3%);
+		}
+
+		.left {
+			min-width: 300px;
+			padding-right: $itemPadding;
+
+			.col.image {
+				img {
+					max-width: 180px;
+					height: auto;
+					border-radius: $defaultRadius;
+				}
+			}
+
+			.col.me {
+				padding: 0 $itemPadding 0 $itemPadding;
+
+				h3:not(:first-child) {
+					margin-top: $itemPadding;
+				}
+			}
+		}
+
+		.right {
+			flex: 1;
+			padding-left: $itemPadding;
+
+			.section {
+				&:not(:last-child) { 
+					margin-bottom: $itemPadding;
+				}
+
+				ul {
+					li {
+						display: block;
+						margin-left: 5px;
+					}
+				}
+			}
+
+
+			#skills {
+				.skill-types {
+					h4 {
+						&:not(:first-child) {
+							margin-top: $itemPadding;
+						}
+						font-family: 'Open Sans Bold'
+					}
+
+					ul {
+						display: flex;
+						flex-wrap: wrap;
+						max-width: 100%;
+
+						li {
+							display: block;
+							padding: 0px 10px;
+							font-size: .9em;
+						}
+					}
+				}
+
+			}
+		}
+	}
+}
+
+@media all and (max-width: 1023px) {
+	#home {
+		.bio {
+			border-radius: 0;
+			width: 100%;
+		}
+	}
+}
+
+@media all and (max-width: 767px) {
+	#home {
+		.bio {
+			display: block;
+
+			.left, .right {
+				width: 100%;
+				min-width: 100%;
+				max-width: 100%;
+				padding-left: 0;
+			}
+
+			.left {
+				.col.image {
+					img {
+						max-width: 115px;
+					}
+				}
+			}
+		}
+	}
+}

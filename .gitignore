@@ -1,4 +1,10 @@
 node_modules/
+
+dist/demos
+dist/files
+dist/shared
+
+node_modules/
 yarn.lock
 package-lock.json
 npm-debug.log

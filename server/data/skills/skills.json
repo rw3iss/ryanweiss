@@ -1,0 +1,26 @@
+{
+
+    "frontend": "JavaScript, jQuery, jQuery Mobile, React, Preact, Vue, Angular.js, Knockout.js, Backbone.js, Underscore.js, Mithril.js, ember.js, lodash, AMDs, require.js, CommonJS, JSON, AJAX, HTML5, XHTML, DHTML, CSS3, Sass, Compass, CoffeeScript, sprites, Canvas, SVG, Meteor.js, Bootstrap, Foundation, Skeleton, Mustache, Handlebars.js, Jade, Adobe AIR, Socket.io, d3.js, Marko templates, Raphael.js, moment.js, gulp, Phantom.js, Modernizr, normalize.css, MooTools, browserify, bower, Grunt build processes/concatenation+minification, AMPs (accelerated mobile pages), PWAs and service workers, flexbox model, CSS grid, Jasmine, Mocha+Chai unit testing, Superagent/Supertest HTTP testing, HTTP AppCache, offline applications, IsMobile, ScrollTrigger, Vimeo, Phantom.js",
+
+    "backend": {
+        "JavaScript": "Express.js, Meteor.js, koa.js, strapi, LoopBack, lowdb, MongoDB, Electron, passport authentication, JWT auth, OAuth 2.0, websockets, Socket.io, Mocha+Chai unit testing, baucis REST module, OAuth 2.0",
+        "PHP": "Laravel 4, Laravel plugins, Artisan CLI tools, CodeIgniter, Drupal, WordPress, WordPress plugins and theme development, DORM, Doctrine, ActiveRecord, integration of SimpleSAML single sign on, custom CMS design and implementation, PDO, composer, JWT auth, OAuth 2.0, messaging queues, PHPUnit unit testing, TDD/test-driven development, dependency injection, Orno IoC/Dependency Injection, migrations",
+        ".NET": "C#, MVC 2-4, CQRS architecture, SiteCore, Entity Framework, Spring.NET IoC/DI, ADO.NET, LINQ, Doctrine, dapper, Xamarin/Mono Cross-Platform apps + PCLs/portable class libraries, OrchardCMS, Jenkins, dependency injection, migrations, nuget package management, PowerShell scripts, Windows Azure, custom Visual Studio plugins, Nant build tool",
+        "Java": "Kotlin",
+        "Python": "",
+        "Databases": "SQL, MySQL, T-SQL, PostgreSQL, PostGIS, SQLite, CouchDB, MongoDB, DynamoDB, memcached, redis, Doctrine, dapper, migrations, proper indexing optimization and normalization techniques, familiarity with sharding and replication practices",
+        "Desktop": "Adobe AIR, Qt++, C++, Xamarin/Mono, Electron",
+        "Mobile": "XCode, Xamarin, PhoneGap",
+        "Concepts": "",
+        "Misc": "Golang, Python, Ruby, CMS design and implementation, HTTP AppCache logistics/offline applications, Git, setting up personal git servers, Subversion, PhoneGap/Cordova, regex, SSL certificate security, build management with CHEF and Jenkins, SEO, e-commerce experience, web services (REST and SOAP), AJAX, JSON, XML, UML, PostGIS, Vector map tile servers, TopoJSON, CartoDB, Vagrant, nginx, Apache, LAMP/MEAN, Amazon EC2, RabbitMQ and message queuing, Tomcat, Java, UNIX/Linux Server administration and optimization, Nagios, Ant, Nant, Unity Engine/UnityScript, Cocos2D, messaging queues for distributed programming, Agile practices, SCRUM, TDD/test-driven development, migrations, design patterns"
+    },
+
+    "services": {
+        "AWS": "EC2, ECS, Lambda, S3, DynamoDB, Aurora RDS, CloudFront, CodePipeline, CodeDeploy, CodeCommit, CloudFront, ELBs, CloudWatch, VPCs, Route 53, IAM, EBS, Beanstalk, Fargate",
+        "Google": "AdWords, DoubleClick, Analytics, Maps, Weather, DialogFlow chatbot",
+        "Other": "Okta, Mapbox, Weather, Facebook Graph, Twitter, Radian6, Paypal, Authorize.net, UserVoice, Gravatar, ShareThis, TypeKit, MailChimp+Mandrill, ClickTale, intercom.io, KickOffLabs, Route53, Sizmek, Shopify, Rollbar"
+    },
+
+    "devtools": "Docker, CircleCI, Webpack, Ansible, GitLab, Composer, Grunt, npm, bower, Yeoman, gulp, nuget, bash scripts, UML, flowcharts, broccoli, Phantom.js, Chef, tmux, PowerShell, Gradle"
+
+}
